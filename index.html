@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Regine I.T Consult">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="PWA Starter" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Perfume Paradise Global</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="manifest" href="public/manifest.json">
+    <link rel="icon" href="public/assets/icons/icon.png" type="image/png">
+    <script src="src/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark"
+            data-bs-theme="dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="public/assets/icons/144x144.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://feliciabaako.com">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="message-us.html">Message Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus">Contact Us</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+                        <!-- <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li> -->
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success " type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="position-relative">
+            <div class="position-absolute bottom-0 end-0 form">
+                  <a class="btn btn-info" href= "cart-view.html" >View Cart</a>
+              </div>
+          </div>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="winneba.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="navis.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="fbimg.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Introduction -->
+        <h3>Your home of qualify and affordable perfumes</h3>
+        <p id="panime">
+            Perfumes Paradise has been a trailblazer in perfume distribution across United States for decades. <br> Partnering
+            with global brands like Fragranceworld, Paris De Fleurs and Dubai Scentos, we ensure customers nationwide receive top-quality
+            fragrances. <br> With leading delivery partners like DHL, we guarantee safe and prompt
+            delivery to your doorstep. <br> Your satisfaction is our priority at Perfumes Paradise..
+
+        </p>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image20.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Avant</b> </p>
+
+                    <p>Description:100ml</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image21.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Brown Orchid</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image22.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Zara Man</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image24.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Berries Weeked Pink</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image25a.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Berries Weeked Violet</b> </p>
+
+                    <p>Description: 100ml</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image26.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Barakkat Satin Oud</b> </p>
+
+                    <p>Description: 100ml</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image30.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Barakkat Rogue White</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image28.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Barakkat Aqua Crystal</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <!-- row 2 -->
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image31.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b> Barakkat Rogue</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image33.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Memories for Her</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image35.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Memories for Him</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image39.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>La Nuit Rose</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+        <!-- row 3 -->
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image41.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Suspenso</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image42a.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Suspenso Intense</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image43.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Suave Intense</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image44a.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Suave</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <!-- row 4 -->
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image47.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Hot Zone</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image48.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Scarlet</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image50.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Barakkat Aqua Aevum</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image52.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Icon</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image76.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Friendly World</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image78.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Canal De Moiselle</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image80.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Des Tentations Flame</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image82.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Change De Canal</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image21a.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Brown Orchid Ruby</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image21c.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Brown Orchid Sapphire</b></p>
+
+                    <p>Description</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image2a.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Rich Man</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image19.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p> <b>Fiero Bleu Man</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image54.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Ophylia</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image56.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Aventos Green</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image58.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Intense Man</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image62.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Oniro</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image68.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <p><b>Canal De Change</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image70.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p> <b>Versus Diamond Bleu</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image72.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p><b>Versus Ocean Bleu</b></p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image74.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <p> <b>Enchange Unlimited</b> </p>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="card shadow">
+                <img src="img/image1.jpg" alt="thumbnail" height="300px">
+                <div class="card-body">
+                    <h4><b>La Secret Angel</b></h4>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card shadow">
+                <img src="img/image3.jpg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <h4> <b>Writer Gold</b> </h4>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/image4.png" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <h4 class="card-title"><b>Writer Silver</b></h4>
+
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card shadow">
+                <img src="img/default.jpeg" alt="thumbnail" height="300px">
+
+                <div class="card-body">
+                    <h4 class="card-title"> <b>default</b> </h4>
+                    <p>Description:</p>
+                    <p>Price $: <b> 99.00 </b></p>
+                    <p id="status">Status: <i>In Stock</i> </p>
+                    <div class="btn-group" id="doublebuttons" role="group" aria-label="Basic mixed styles example">
+                        <a href="message-us.html" type="button" class="btn btn-info">Request Quote</a>
+                        <button type="button" class="btn btn-success" disabled>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- row ends here -->
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <form action="form" method="post" type="submit" class="form">
+                    <div>
+                        <label for="subname" class="form-label">Name</label>
+                        <input type="text" class="form-control" name="subname" id="" placeholder="enter name">
+                    </div>
+                    <div>
+                        <label for="subemail" class="form-label"> Email</label>
+                        <input type="email" class="form-control" name="subemail" id="" placeholder="enter email">
+                    </div>
+                    <br>
+                    <div class="">
+                        <button type="submit" class="btn btn-lg btn-danger"> SUBSCRIBE</button>
+                    </div>
+
+                    <br>
+                    <br>
+                </form>
+            </div>
+
+            <div class="col-6" id="contactus">
+                <h5>Contact Us</h5>
+                <ul class="icons" style="list-style-type: none;">
+                    <li><a href=""><img src="public/facebook.PNG" height="48px" alt="mobile" ></a><span>+12354658487</span></li>
+                    <li><a href="mailto:regina90503@gmail.com"><img src="public/facebook.PNG" height="48px" alt="email" ><span>regina90503@gmail.com</span></a></li>
+                    <li><a href="https://twitter.com/"><img src="public/facebook.PNG" alt="twitter" height="48px">Perfume Paradise Global.</a></li>
+                    <li><a href="https://twitter.com/"><img src="public/instagram.PNG" alt="twitter" height="48px">Perfume Paradise Global.</a></li>
+                    <li><a href="https://twitter.com/"><img src="public/youtube.PNG" alt="twitter" height="48px">Perfume Paradise Global.</a></li>
+                    <li><a href="https://twitter.com/"><img src="public/twitter.PNG" alt="twitter" height="48px">Perfume Paradise Global.</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            <small>
+                Copyright © 2024 Regine IT Consult Inc. All Rights Reserved. <br>
+                Developed by Regina, <a href="#" target="_blank">Github</a>
+            </small><br>
+
+
+        </footer>
+
+    </div>
+    <!-- container ends here -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(
+                'public/sw.js'
+            );
+        }
+    </script>
+</body>
+
+
+</html>
