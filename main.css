@@ -1,0 +1,83 @@
+div.card{
+ padding: 5px;
+ margin: 10px;
+ width: 18rem ;
+
+}
+
+#mainheader{
+  background-color:black;
+  margin: 0 auto;
+  padding: 0%;
+}
+
+div.container{
+
+    background-color:transparent;
+    align-items:inherit;
+    background-color: snow;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
+
+  div.row{
+    /* align-content: space-evenly; */
+
+  }
+
+  form{
+
+    margin-top: 15px;
+    background-color:snow;
+
+  }
+
+  #status{
+    color: rgb(0, 128, 0);
+
+  }
+
+  #doublebuttons{
+    /* align-items: center; */
+
+  }
+
+  body{
+    background-color: #000;
+  }
+
+ #panime{
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+
+  table{
+    background-color: snow;
+    margin-top: 30px;
+    padding-top: 5px;
+  }
+
+  name:choice{
+width: 50%;
+  }
+
+  .noticebox{
+    text-align: center;
+  }
